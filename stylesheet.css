@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(247, 216, 250);
+}
+
+body {
+    margin: 0;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    background-color: #5050e2;
+    transition: background-color 0.5s ease-in;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #f6f6db;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+.player1 {
+    background-color: #f2a924;
+}
+
+.player2 {
+    background-color: #ff67b4;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    z-index: 100000000;
+    font-size: 230px;
+    font-family: arial;
+    text-shadow: 5px 5px orange;
+    color: magenta;
+    background: radial-gradient(circle, rgb(208, 30, 122), yellow, #75d06e);
+    padding: 37px;
+    margin: 0;
+    position: absolute;
+    display: none;
+}
+
+.button {
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    color: orange;
+    background-color: magenta;
+    border: 8px solid;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bold;
+}
