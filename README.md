@@ -6,14 +6,14 @@ Technologies: jQuery, HTML, and CSS.
 
 Vertical Victory:
 
-<img src="./vertical.gif"
+<img src="public/vertical.gif">
 
 
 Horizontal Victory:
 
-<img src="./horizontal.gif"
+<img src="public/horizontal.gif">
 
 
 Diagonal Victory:
 
-<img src="./diagonal.gif"
+<img src="public/diagonal.gif">
